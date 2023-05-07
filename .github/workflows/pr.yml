@@ -12,12 +12,9 @@ jobs:
     - name: Get the write-good output
       run: echo "${{ steps.write-good.outputs.result }}"
     - name: Post comment
-      uses: mshick/add-pr-comment@v1
+      uses: mshick/add-pr-comment@v2
       if: ${{ steps.write-good.outputs.result }}
       with:
         message: |
           ${{ steps.write-good.outputs.result }}
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
-        allow-repeats: false # This is the default
     
