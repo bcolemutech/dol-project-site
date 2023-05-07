@@ -1,3 +1,8 @@
+---
+title: Maps
+layout: default
+nav_order: 2
+---
 # Maps
 
 Player create maps using [Azgaar's Fantasy Map Generator](https://azgaar.github.io/Fantasy-Map-Generator/). These are then downloaded as a JSON file and imported into the games map folder. The game will then read the JSON file and create a map object. The game world is then created from the map object.
