@@ -1,3 +1,8 @@
 title: Dominion of Light
 description: A roleplaying game of magic and mystery. Procedurally generated, and free to play.
 theme: just-the-docs
+
+url: https://bcolemutech.github.io/dol-project-site
+
+aux_links:
+  Template Repository: https://github.com/bcolemutech/dol-project-site
