@@ -1,0 +1,23 @@
+name: Markdown Linter
+run-name: ${{ github.actor }} is running ${{ github.workflow }} on ${{ github.event_name }} event
+on: [pull_request]
+jobs:
+  markdown-linter:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Lint Markdown
+      id: write-good
+      uses: tomwhross/write-good-action@v1.6
+    - name: Get the write-good output
+      run: echo "${{ steps.write-good.outputs.result }}"
+    - name: Post comment
+      uses: mshick/add-pr-comment@v1
+      if: ${{ steps.write-good.outputs.result }}
+      with:
+        message: |
+          ${{ steps.write-good.outputs.result }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
+        allow-repeats: false # This is the default
+    
