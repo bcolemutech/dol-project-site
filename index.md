@@ -49,8 +49,6 @@ The following is the current road map subject to change.
 | 🖥️ Skills                  |         |
 | 🖥️ Quests                  |         |
 | 🖥️ Campaigns               |         |
-| 🖥️ Factions                |         |
-| 🖥️ Property                |         |
 | 🎮 __Unity App__           |         |
 | 🎮 Create new map/import   |         |
 | 🎮 Navigate the game world |         |
