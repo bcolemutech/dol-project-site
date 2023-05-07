@@ -4,7 +4,7 @@ This is the start of a great journey. The creation of Dominion of Light the game
 
 ## Mission
 
-Although this project may never get truly released but there are other goals I wish to achieve with this project.
+To create a game that is fun to play and never ends. A game that is always changing and evolving. A game that is never the same twice. A game that is always fun to play.
 
 - __Unlimited game play__ - This is at the core of the games design
 - Unlimited character building
@@ -13,7 +13,7 @@ Although this project may never get truly released but there are other goals I w
   - Improbable to explore entirely
   - Persistence
   - Never the same when revisiting
-  - Evolving with AI based factions that govern everything even nature
+  - Evolving with AI based factions that change the world as you play
 - New quests all the time that evolve with the world
   - Minor quest opportunities everywhere
   - Full campaigns form automatically
@@ -28,6 +28,9 @@ Although this project may never get truly released but there are other goals I w
 - [Rider](https://www.jetbrains.com/rider/)
 - [GitHub](https://github.com/)
 - [Azgaar's Fantasy Map Generator](https://azgaar.github.io/Fantasy-Map-Generator/)
+- [Spectre.Console](https://spectresystems.github.io/spectre.console/)
+- [Unity](https://unity.com/)
+- [Greenlight](https://steamcommunity.com/workshop/about/?appid=765&section=faq)
 
 ## Road Map
 

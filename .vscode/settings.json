@@ -2,5 +2,8 @@
     "cSpell.words": [
         "Azgaar's",
         "Greenlight"
-    ]
+    ],
+    "yaml.schemas": {
+        "https://json.schemastore.org/jekyll.json": "file:///mnt/c/Users/Bcolemutech.000/Documents/GitHub/dol-project-site/_data/docs.yml"
+    }
 }
