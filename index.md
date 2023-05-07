@@ -4,7 +4,7 @@ This is the start of a great journey. The creation of Dominion of Light the game
 
 ## Mission
 
-Although this project may never get truly released but there are many other goals I wish to achieve with this project.
+Although this project may never get truly released but there are other goals I wish to achieve with this project.
 
 - __Unlimited game play__ - This is at the core of the games design
 - Unlimited character building
@@ -12,15 +12,14 @@ Although this project may never get truly released but there are many other goal
 - Massive open world
   - Improbable to explore entirely
   - Persistence
-  - Never exactly the same when revisiting
+  - Never the same when revisiting
   - Evolving with AI based factions that govern everything even nature
 - New quests all the time that evolve with the world
   - Minor quest opportunities everywhere
   - Full campaigns form automatically
   - No static story lines
 - Tell the Dominion of Light story
-  - This world has been designed, refactored, and grown for over 15 years.
-  - It is my favorite creation
+  - For 15 years I have been working on this story and its time to tell it.
 
 ## Third Party Resources
 
@@ -32,9 +31,9 @@ Although this project may never get truly released but there are many other goal
 
 ## Road Map
 
-The road map has been revised from the web approach to a native app. Still a 3 phased approach. First, a console app to refine back end mechanics and generative algorithms.
+This road map is not based on a web approach but rather a native app. Still a 3 phased approach. First, a console app to refine back end mechanics and generative algorithms.
 Then a Unity PC game with basic UI. Next, refinement of the app for users and potentially a closed door pre-release.
-Finally, after refinement a Greenlight project on Steam to get more testers and backing to refine further.
+After refinement a Greenlight project on Steam to get more testers and backing to refine further.
 
 The following is the current road map subject to change.
 
@@ -49,8 +48,6 @@ The following is the current road map subject to change.
 | 🖥️ Skills                  |         |
 | 🖥️ Quests                  |         |
 | 🖥️ Campaigns               |         |
-| 🖥️ Factions                |         |
-| 🖥️ Property                |         |
 | 🎮 __Unity App__           |         |
 | 🎮 Create new map/import   |         |
 | 🎮 Navigate the game world |         |
