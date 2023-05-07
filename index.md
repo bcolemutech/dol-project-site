@@ -1,3 +1,8 @@
+---
+title: Home
+layout: home
+---
+
 # Dominion of Light
 
 This is the start of a great journey. The creation of Dominion of Light the game.
