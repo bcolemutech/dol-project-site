@@ -1,6 +1,6 @@
 # Dominion of Light
 
-This is the start of a great journey. The creation of Dominion of Light the game. This game is a Google Cloud hosted world. The first phase of the game is a web based app. As the game world evolves new features will be released to the app. The web app will be used to build out the SDK for future phases (Unity).
+This is the start of a great journey. The creation of Dominion of Light the game.
 
 ## Mission
 
