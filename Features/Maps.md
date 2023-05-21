@@ -29,7 +29,7 @@ The following rules are for determining locations:
    - metropolis = 25000 > 100000
    - megalopolis = 100000+
   
-2. Based on size determine number of quality slots using fibonacci sequence.
+2. Based on size determine number of rarity slots using fibonacci sequence.
    - hamlet
      - 1 common
    - village
@@ -79,4 +79,4 @@ The following rules are for determining locations:
    1. Some locations do not allow multiples
    2. Some locations require a specific property
    3. Some locations require a specific burg size
-   4. If a location with a lower base quality gets selected for a higher quality slot then add location with a higher quality equal to the difference. The difference mist be no more than 2 levels lower than the slot otherwise reject the selection.
+   4. If a location with a lower base rarity gets selected for a higher rarity slot then add location with a higher rarity equal to the difference. The difference mist be no more than 2 levels lower than the slot otherwise reject the selection.
