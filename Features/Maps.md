@@ -73,19 +73,26 @@ The following rules are for determining locations:
       - town = harbor
       - city = port
       - metropolis = port
-    - Temple, if temple property is true then add temple location. The temple will be a different size based on the burg size.
+    - Temple, if temple property is true then add temple location. The temple will be a different size based on the burg size. The city of light has separate rules for temples.
       - hamlet = shrine
       - village = shrine
       - town = temple
       - city = temple
       - metropolis = temple
-    - Always required in order
-      1. tavern
-      2. inn
-      3. general store
-
-6. After slots and required locations done then randomly add remaining locations for each remaining slot. Rules determine if selection is valid for the given slot. If a valid location is not found then try again. Rules to consider:
+6. Add special locations and rules for the city of light.
+   - The City of light has special buildings
+     - The Citadel of Eternity
+     - The Cave of Life
+     - The Conclave Tower
+     - The University
+     - The Knights Barracks
+     - The Paladins Fortress
+     - The Paladins Forge
+     - The Judicator's Court
+     - The Hall of Penitence
+     - The Sky Temple
+7. After slots and required locations done then randomly add remaining locations for each remaining slot. Rules determine if selection is valid for the given slot. If a valid location is not found then try again. Rules to consider:
    1. Some locations do not allow multiples
    2. Some locations require a specific property
    3. Some locations require a specific burg size
-   4. If a location with a lower base rarity gets selected for a higher rarity slot then add location with a higher rarity equal to the difference. The difference mist be no more than 2 levels lower than the slot otherwise reject the selection.
+   4. Burg locations can use the max rarity property to allow for more rare version of that location. For example a city can have a rare blacksmith.
