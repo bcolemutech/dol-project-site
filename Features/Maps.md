@@ -21,15 +21,25 @@ The following rules are for determining locations:
 
 #### Burgs
 
-1. Determine burg size.
+1. Determine population for all burgs.
+   1. get largest and smallest population.
+   2. Subtract the smallest from every city.
+   3. Multiply max population by 3.
+   4. Divide the smallest by 3.
+   5. subtract the adjusted min from the adjusted max.
+   6. spin through all burgs and adjust population based on the adjusted min and max.
+2. Identify City of Light:
+   1. Find the largest capitol city.
+   2. Increase the size of the city 3x.
+   3. Mark the city as the City of Light.
+3. Determine burg size for all burgs.
    - hamlet = 0 > 100
    - village = 100 > 1000
    - town = 1000 > 5000
    - city = 5000 > 25000
    - metropolis = 25000 > 100000
-   - megalopolis = 100000+
-  
-2. Based on size determine number of quality slots using fibonacci sequence.
+   - megalopolis = 100000+  
+4. Based on size determine number of quality slots using fibonacci sequence.
    - hamlet
      - 1 common
    - village
@@ -56,8 +66,7 @@ The following rules are for determining locations:
      - 5 rare
      - 3 epic
      - 2 legendary
-
-3. Based on burg properties determine common locations that need added first in priority order. Property specific locations will have priority over other common locations.
+5. Based on burg properties determine common locations that need added first in priority order. Property specific locations will have priority over other common locations.
     - Port, if port property is true then add port location. The port will be a different size based on the burg size.
       - hamlet = pier
       - village = dock
@@ -75,7 +84,7 @@ The following rules are for determining locations:
       2. inn
       3. general store
 
-4. After slots and required locations done then randomly add remaining locations for each remaining slot. Rules determine if selection is valid for the given slot. If a valid location is not found then try again. Rules to consider:
+6. After slots and required locations done then randomly add remaining locations for each remaining slot. Rules determine if selection is valid for the given slot. If a valid location is not found then try again. Rules to consider:
    1. Some locations do not allow multiples
    2. Some locations require a specific property
    3. Some locations require a specific burg size
