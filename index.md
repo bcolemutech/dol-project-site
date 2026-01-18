@@ -46,17 +46,17 @@ After refinement a Greenlight project on Steam to get more testers and backing t
 
 The following is the current road map subject to change.
 
-| Feature                   | Version |
-| ------------------------- | ------- |
-| 🖥️ __Console App__         |         |
-| 🖥️ Import game map         |         |
-| 🖥️ Navigate the game world |         |
-| 🖥️ Encounters              |         |
-| 🖥️ Inventory               |         |
-| 🖥️ Combat                  |         |
-| 🖥️ Skills                  |         |
-| 🖥️ Quests                  |         |
-| 🖥️ Campaigns               |         |
+| Feature                   | Version        |
+| ------------------------- | -------------- |
+| 🖥️ __Console App__         |                |
+| 🖥️ Import game map         | 1.1.0          |
+| 🖥️ Navigate the game world | 1.2.0 (WIP)    |
+| 🖥️ Encounters              | Next           |
+| 🖥️ Inventory               | Next           |
+| 🖥️ Combat                  |                |
+| 🖥️ Skills                  |                |
+| 🖥️ Quests                  |                |
+| 🖥️ Campaigns               |                |
 | 🎮 __Unity App__           |         |
 | 🎮 Create new map/import   |         |
 | 🎮 Navigate the game world |         |
