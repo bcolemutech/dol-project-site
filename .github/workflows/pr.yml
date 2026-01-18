@@ -5,7 +5,7 @@ jobs:
   markdown-linter:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Lint Markdown
       id: write-good
       uses: tomwhross/write-good-action@v1.6
