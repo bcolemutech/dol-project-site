@@ -8,7 +8,7 @@ This document provides comprehensive guidance for AI assistants working on the D
 
 **Key Information:**
 - **Project Type:** Jekyll Static Site Generator + Documentation
-- **Theme:** just-the-docs (v0.5.0) - pinned version
+- **Theme:** just-the-docs (0.5.0) - pinned version
 - **Hosting:** GitHub Pages
 - **Live URL:** https://bcolemutech.github.io/dol-project-site
 - **Repository:** https://github.com/bcolemutech/dol-project-site
